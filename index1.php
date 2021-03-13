@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><b><I>BAKE HOUSE RECIPES</I></b></a>
+          <a class="navbar-brand" href="index.php"><b><I>BAKE HOUSE RECIPES</I></b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,19 +19,19 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+                <a class="nav-link active" aria-current="page" href="index.php"><b>Home</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index1.html"><b>LOGIN</b></a>
+                <a class="nav-link" href="index1.php"><b>LOGIN</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index2.html"><b>RECIPES</b></a>
+                <a class="nav-link" href="index2.php"><b>RECIPES</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index3.html"><b>ABOUT US</b></a>
+                <a class="nav-link" href="index3.php"><b>ABOUT US</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index4.html"><b>CONTACT US</b></a>
+                <a class="nav-link" href="index4.php"><b>CONTACT US</b></a>
               </li>
               
               </div>
@@ -63,10 +63,39 @@
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img height="418px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStB2b-YH3ev3TzntBN-p2g7B1sUYbNaW2GEw&usqp=CAU" class="d-block w-100" alt="...">
+            <img height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStB2b-YH3ev3TzntBN-p2g7B1sUYbNaW2GEw&usqp=CAU" class="d-block w-100" alt="...">
           </div>
           
         </div>
+      </div>
+      <table class="table table-borderless">
+        
+        <tr>
+            <center><h1><b>LOGIN</b></h1></center>
+          <td><b>Email</b></td>
+          <td><input type="text" class="form-control"></td>
+      </tr>
+        <tr>
+            <td><b>Password</b></td>
+            <td><input type="password" class="form-control"></td>
+        
+        </tr>
+        
+            </table>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-danger">Cancel</button>
+                        <button type="button" class="btn btn-success">SUBMIT</button>
+                      </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        
+      
       </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>  
 </body>

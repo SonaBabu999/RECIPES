@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><b><I>BAKE HOUSE RECIPES</I></b></a>
+          <a class="navbar-brand" href="index.php"><b><I>BAKE HOUSE RECIPES</I></b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,22 +19,20 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+                <a class="nav-link active" aria-current="page" href="index.php"><b>Home</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index1.html"><b>LOGIN</b></a>
+                <a class="nav-link" href="index1.php"><b>LOGIN</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index2.html"><b>RECIPES</b>
-                
+                <a class="nav-link" href="index2.php"><b>RECIPES</b>
                 </a>
               </li>
-              
               <li class="nav-item">
-                <a class="nav-link" href="index3.html"><b>ABOUT US</b></a>
+                <a class="nav-link" href="index3.php"><b>ABOUT US</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index4.html"><b>CONTACT US</b></a>
+                <a class="nav-link" href="index4.php"><b>CONTACT US</b></a>
               </li>
               
               </div>
